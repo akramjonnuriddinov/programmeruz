@@ -1,3 +1,7 @@
+<script setup>
+import ChevronIcon from '@/components/icons/ChevronIcon.vue'
+</script>
+
 <template>
   <div class="bg-[#D4F0F0]">
     <div class="container mx-auto flex flex-col items-center py-[72px]">
@@ -10,14 +14,17 @@
           analytics.
         </p>
       </div>
-      <div class="flex justify-center items-center">
+      <div class="flex font-medium text-lg leading-[23px] justify-center">
         <button
-          class="focus:outline-none bg-primary transition duration-150 ease-in-out rounded-[20px] text-white text-sm py-5 px-10"
+          class="bg-primary flex items-center transition duration-150 ease-in-out rounded-[20px] text-white py-2 pl-10 pr-2"
         >
           Get Started
+          <div class="ml-8 py-4 rounded-2xl px-[18px] bg-white">
+            <chevron-icon class="w-2 text-[#23232D] h-4" />
+          </div>
         </button>
         <button
-          class="ml-4 bg-transparent transition border-[#ACACAC] duration-150 ease-in-out rounded-[20px] border py-5 px-10"
+          class="ml-4 text-black bg-transparent transition border-[#ACACAC] duration-150 ease-in-out rounded-[20px] border py-5 px-10"
         >
           Take a Tour
         </button>
