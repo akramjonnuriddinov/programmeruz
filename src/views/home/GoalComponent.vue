@@ -1,3 +1,5 @@
+<script setup></script>
+
 <template>
   <section class="bg-tg-white py-10">
     <div class="container mx-auto w-full px-5">
@@ -27,31 +29,11 @@
             Ensure alignment across your whole organization by making strategic objectives crystal
             clear. Do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
-          <ul class="mb-14">
-            <li
-              v-for="aboutContent in aboutContents"
-              :key="aboutContent"
-              class="mb-6 flex items-center"
-            >
-              <div class="mr-3 w-6 h-6 flex items-center justify-center rounded-full bg-[#D4F0F0]">
-                <img class="" src="@/assets/img/check.svg" alt="" />
-              </div>
-              <p class="leading-[1.8] text-black">
-                {{ aboutContent }}
-              </p>
-            </li>
-          </ul>
         </div>
       </div>
     </div>
   </section>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const aboutContents = ref(['Organize your data', 'Work with any team', 'Business analytics'])
-</script>
 
 <style scoped>
 .card {

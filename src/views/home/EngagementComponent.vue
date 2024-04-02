@@ -1,3 +1,9 @@
+<script setup>
+import { ref } from 'vue'
+
+const aboutContents = ref(['Organize your data', 'Work with any team', 'Business analytics'])
+</script>
+
 <template>
   <section class="bg-tg-white py-10">
     <div class="container mx-auto w-full px-5">
@@ -44,12 +50,6 @@
     </div>
   </section>
 </template>
-
-<script setup>
-import { ref } from 'vue'
-
-const aboutContents = ref(['Organize your data', 'Work with any team', 'Business analytics'])
-</script>
 
 <style scoped>
 .card {

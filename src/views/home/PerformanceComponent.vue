@@ -41,8 +41,6 @@
   </section>
 </template>
 
-<script setup></script>
-
 <style scoped>
 .card {
   box-shadow: 12px 24px 48px 0px #0000001f;
