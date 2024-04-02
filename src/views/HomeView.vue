@@ -1,9 +1,9 @@
 <script setup>
 import HomeHero from '@/components/HomeHero.vue'
 import StatsComponent from '@/components/StatsComponent.vue'
-import EngagementComponent from '@/views/home/EngagementComponent.vue'
-import PerformanceComponent from '@/views/home/PerformanceComponent.vue'
-import GoalComponent from '@/views/home/GoalComponent.vue'
+import EngagementComponent from '@/components/EngagementComponent.vue'
+import PerformanceComponent from '@/components/PerformanceComponent.vue'
+import GoalComponent from '@/components/GoalComponent.vue'
 import ContactUs from '@/components/ContactUs.vue'
 import IntegrationComponent from '@/components/IntegrationComponent.vue'
 import ClientComponent from '@/components/ClientComponent.vue'

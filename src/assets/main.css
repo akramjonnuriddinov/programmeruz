@@ -84,4 +84,18 @@
     line-height: 28px;
     color: #585858;
   }
+
+  ::-webkit-scrollbar {
+    width: 6px;
+    scrollbar-width: 5px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 4px;
+  }
 }
