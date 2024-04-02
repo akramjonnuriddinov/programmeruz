@@ -6,6 +6,8 @@ import PerformanceComponent from '@/views/home/PerformanceComponent.vue'
 import GoalComponent from '@/views/home/GoalComponent.vue'
 import ContactUs from '@/components/ContactUs.vue'
 import IntegrationComponent from '@/components/IntegrationComponent.vue'
+import ClientComponent from '@/components/ClientComponent.vue'
+import BlogComponent from '@/components/BlogComponent.vue'
 </script>
 
 <template>
@@ -15,5 +17,7 @@ import IntegrationComponent from '@/components/IntegrationComponent.vue'
   <performance-component />
   <goal-component />
   <integration-component />
+  <client-component />
+  <blog-component />
   <contact-us />
 </template>
