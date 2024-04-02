@@ -4,6 +4,7 @@ import StatsComponent from '@/components/StatsComponent.vue'
 import EngagementComponent from '@/views/home/EngagementComponent.vue'
 import PerformanceComponent from '@/views/home/PerformanceComponent.vue'
 import GoalComponent from '@/views/home/GoalComponent.vue'
+import ContactUs from '@/components/ContactUs.vue'
 </script>
 
 <template>
@@ -12,4 +13,5 @@ import GoalComponent from '@/views/home/GoalComponent.vue'
   <engagement-component />
   <performance-component />
   <goal-component />
+  <contact-us />
 </template>
