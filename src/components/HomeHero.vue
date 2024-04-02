@@ -25,20 +25,3 @@
     </div>
   </div>
 </template>
-
-<script>
-export default {
-  name: 'CentreAlignedSimple',
-  methods: {
-    // Function to toggle header menu in mobile view.
-    toggleMenu(flag) {
-      let value = document.getElementById('menu')
-      if (flag) {
-        value.classList.remove('hidden')
-      } else {
-        value.classList.add('hidden')
-      }
-    }
-  }
-}
-</script>
