@@ -23,7 +23,7 @@ const blogs = [
 
 <template>
   <section class="py-[120px]">
-    <div class="container mx-auto">
+    <div class="container mx-auto px-5">
       <div class="flex mb-16 justify-between items-end">
         <h2 class="text-[56px] text-black font-semibold leading-[69px]">News & Updates.</h2>
         <button class="text-primary font-semibold flex items-center">

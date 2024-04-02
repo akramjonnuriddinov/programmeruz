@@ -1,6 +1,6 @@
 <template>
   <section class="bg-tg-white py-10">
-    <div class="container mx-auto w-full px-5">
+    <div class="container mx-auto px-5 w-full">
       <div class="flex flex-row-reverse items-center">
         <div class="relative z-10">
           <img class="w-[555px] h-[660px]" src="@/assets/img/working-girl-2.jpg" alt="" />

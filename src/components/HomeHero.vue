@@ -4,7 +4,7 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
 
 <template>
   <div class="bg-[#D4F0F0]">
-    <div class="container mx-auto flex flex-col items-center py-[72px]">
+    <div class="container mx-auto px-5 flex flex-col items-center py-[72px]">
       <div class="w-11/12 sm:w-2/3 mb-5 sm:mb-10">
         <h1 class="text-7xl text-center text-black font-semibold leading-[89px]">
           Your ultimate SaaS all-in-one solution.

@@ -193,7 +193,7 @@ const socials = [
       </div>
     </div>
     <div class="border-t pt-8 pb-16 border-[#585858]">
-      <div class="w-full container mx-auto flex items-center">
+      <div class="w-full container mx-auto px-5 flex items-center">
         <a href="#" class="mr-8 flex items-center">
           <img src="@/assets/img/logo-white.svg" class="mr-3 h-6 sm:h-9" alt="Logo" />
         </a>
