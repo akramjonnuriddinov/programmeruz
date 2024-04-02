@@ -21,36 +21,56 @@ const clientOpinions = [
     img_url: 'client/Image.jpg'
   }
 ]
+const testimonials = [
+  'testimonial/Logo-1.svg',
+  'testimonial/Logo-2.svg',
+  'testimonial/Logo-3.svg',
+  'testimonial/Logo-4.svg',
+  'testimonial/Logo-5.svg',
+  'testimonial/Logo-6.svg',
+  'testimonial/Logo-7.svg'
+]
 </script>
 
 <template>
   <section class="bg-primary text-white pt-[120px] pb-16">
-    <div class="container mx-auto w-full flex justify-between">
-      <div class="max-w-[652px] w-full">
-        <p class="mb-8 font-semibold text-[48px] leading-[59px]">
-          “This is one of many reasons why I found Metaview's notes helpful, but I was also blown
-          away by how finely tuned the information is”
-        </p>
-        <div class="flex text-lg leading-[23px] items-center">
-          <img class="mr-4" src="../assets/img/person.png" alt="" />
-          <span class="font-semibold text-[#F3FB6E]">Mason Maldonado ·</span>
-          <span class="opacity-50"> CEO, Amazing Company</span>
-        </div>
-      </div>
-      <ul>
-        <li
-          v-for="clientOpinion in clientOpinions"
-          :key="clientOpinion.name"
-          class="pb-4 card-bottom mb-8"
-        >
-          <p class="text-lg font-normal mb-4">“{{ clientOpinion.text }}”</p>
-          <div class="flex text-sm leading-[23px] items-center">
-            <img class="mr-4 rounded-full" :src="getImageUrl(clientOpinion.img_url)" alt="" />
-            <span class="font-semibold text-[#F3FB6E]">{{ clientOpinion.name }} · </span>
-            <span class="opacity-50"> {{ clientOpinion.role }}</span>
+    <div class="container mx-auto w-full">
+      <div class="flex justify-between">
+        <div class="max-w-[652px] w-full">
+          <p class="mb-8 font-semibold text-[48px] leading-[59px]">
+            “This is one of many reasons why I found Metaview's notes helpful, but I was also blown
+            away by how finely tuned the information is”
+          </p>
+          <div class="flex text-lg leading-[23px] items-center">
+            <img class="mr-4" src="../assets/img/person.png" alt="" />
+            <span class="font-semibold text-[#F3FB6E]">Mason Maldonado ·</span>
+            <span class="opacity-50"> CEO, Amazing Company</span>
           </div>
-        </li>
-      </ul>
+        </div>
+        <ul>
+          <li
+            v-for="clientOpinion in clientOpinions"
+            :key="clientOpinion.name"
+            class="pb-4 card-bottom mb-8"
+          >
+            <p class="text-lg font-normal mb-4">“{{ clientOpinion.text }}”</p>
+            <div class="flex text-sm leading-[23px] items-center">
+              <img class="mr-4 rounded-full" :src="getImageUrl(clientOpinion.img_url)" alt="" />
+              <span class="font-semibold text-[#F3FB6E]">{{ clientOpinion.name }} · </span>
+              <span class="opacity-50"> {{ clientOpinion.role }}</span>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="flex justify-between bg-black rounded-full mt-16 bg-opacity-50 py-12 px-[72px]">
+        <img
+          v-for="testimonial in testimonials"
+          :key="testimonial"
+          :src="getImageUrl(testimonial)"
+          :alt="testimonials"
+          class="mr-4 opacity-50"
+        />
+      </div>
     </div>
   </section>
 </template>
