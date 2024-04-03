@@ -8,6 +8,7 @@ import PerformanceComponent from '@/components/PerformanceComponent.vue'
 import ContactUs from '@/components/ContactUs.vue'
 import IntegrationComponent from '@/components/IntegrationComponent.vue'
 import BlogComponent from '@/components/BlogComponent.vue'
+import TestimonialReview from '@/components/TestimonialReview.vue'
 </script>
 
 <template>
@@ -17,6 +18,7 @@ import BlogComponent from '@/components/BlogComponent.vue'
   <goal-component />
   <performance-component />
   <integration-component />
+  <testimonial-review />
   <stats-component />
   <blog-component />
   <contact-us />
