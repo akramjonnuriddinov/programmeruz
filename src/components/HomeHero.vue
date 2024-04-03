@@ -9,7 +9,7 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
         <h1 class="text-7xl text-center text-black font-semibold leading-[89px]">
           Your ultimate SaaS all-in-one solution.
         </h1>
-        <p class="mt-4 mx-auto text-center text-lg max-w-[500px] w-full leading-7">
+        <p class="mt-4 mx-auto text-center text-lg max-w-[500px] w-full">
           Boost conversions, engage users, and retain customers with powerful, self-service
           analytics.
         </p>
