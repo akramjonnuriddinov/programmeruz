@@ -42,10 +42,12 @@ const features = [
       :key="feature.title"
       class="flex items-center bg-white rounded-[48px] p-8 max-w-[558px] w-full"
     >
-      <img :src="getImageUrl(feature.img_url)" :alt="feature.title" />
+      <div class="rounded-full border p-6 mr-6">
+        <img :src="getImageUrl(feature.img_url)" :alt="feature.title" />
+      </div>
       <div>
-        <h3>{{ feature.title }}</h3>
-        <p>{{ feature.text }}</p>
+        <h3 class="text-lg leading-6 text-black mb-2 font-semibold">{{ feature.title }}</h3>
+        <p class="text-sm leading-[22px]">{{ feature.text }}</p>
       </div>
     </li>
   </ul>
