@@ -1,6 +1,7 @@
 <script setup>
 import HomeHero2 from '@/components/HomeHero2.vue'
 import TrustedIndustry from '@/components/TrustedIndustry.vue'
+import FeaturesComponent from '@/components/FeaturesComponent.vue'
 import StatsComponent from '@/components/StatsComponent.vue'
 import EngagementComponent from '@/components/EngagementComponent.vue'
 import PerformanceComponent from '@/components/PerformanceComponent.vue'
@@ -13,7 +14,7 @@ import BlogComponent from '@/components/BlogComponent.vue'
 <template>
   <home-hero2 />
   <trusted-industry />
-  <!-- FeaturesComponent -->
+  <features-component />
   <engagement-component />
   <performance-component />
   <goal-component />
