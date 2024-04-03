@@ -7,7 +7,7 @@
         <div class="relative z-10">
           <img class="w-[555px] h-[660px]" src="@/assets/img/working-girl-3.jpg" alt="" />
           <div
-            class="flex rounded-full bg-white w-full max-w-[330px] p-6 absolute bottom-16 left-1/2 -translate-x-1/2 card"
+            class="flex rounded-full bg-white w-full max-w-[330px] p-6 absolute top-4 right-4 card"
           >
             <img class="mr-4" src="@/assets/img/pie39.png" alt="" />
             <div>
@@ -29,6 +29,17 @@
             Ensure alignment across your whole organization by making strategic objectives crystal
             clear. Do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           </p>
+          <div class="pb-4 card-bottom mb-8 max-w-[340px] w-full">
+            <p class="text-sm text-black font-medium mb-3 leading-6">
+              “Macrivate feels like a partner, listening to our needs and making changes based on
+              real users’ feedback”
+            </p>
+            <div class="flex text-sm leading-[23px] items-center">
+              <img class="mr-4 rounded-full" src="../assets/img/client/Image-1.jpg" alt="" />
+              <span class="font-semibold">Jeff Beck · </span>
+              <span class="opacity-50"> CEO, Shopify</span>
+            </div>
+          </div>
         </div>
       </div>
     </div>
