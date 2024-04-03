@@ -1,3 +1,59 @@
+<script setup>
+import StarIcon from '@/components/icons/StarIcon.vue'
+import { getImageUrl } from '@/composables/getImageUrl'
+
+const reviews = [
+  {
+    img_url: 'reviewer/Image-1.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-2.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-3.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-4.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-5.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-6.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-7.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  },
+  {
+    img_url: 'reviewer/Image-8.jpg',
+    name: 'Jeff Beck',
+    role: 'CEO, SomethingGood',
+    text: 'This is one of many reasons why I found Macrivate’s notes helpful, but I was also blown away by how finely tuned the information is'
+  }
+]
+</script>
+
 <template>
   <section class="bg-[#F3FB6E] py-[120px]">
     <div class="container mx-auto px-5">
@@ -5,57 +61,44 @@
         <span class="mb-4 text-base font-semibold leading-[20px] text-primary">Testimonials</span>
         <h2 class="text-[56px] text-black font-semibold leading-[69px]">Beloved by the best.</h2>
       </div>
-      <div
-        class="flex flex-col justify-between rounded-3xl bg-white p-8 shadow-sm max-w-sm mx-auto mt-24"
-      >
-        <div class="text-[#FEBC62] flex gap-2">
-          <svg
-            v-for="i in 5"
-            :key="i"
-            xmlns="http://www.w3.org/2000/svg"
-            class="text-[#FEBC62]"
-            width="20"
-            height="20"
-            viewBox="0 0 24 24"
-            stroke-width="2"
-            stroke="none"
-            fill="currentColor"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path
-              d="M12 17.75l-6.172 3.245l1.179 -6.873l-5 -4.867l6.9 -1l3.086 -6.253l3.086 6.253l6.9 1l-5 4.867l1.179 6.873z"
-            ></path>
-          </svg>
-        </div>
+      <ul class="flex flex-wrap gap-4 justify-between mb-16">
+        <li
+          v-for="review in reviews"
+          :key="review.img_url"
+          class="max-w-[273px] w-full flex flex-col justify-between rounded-3xl bg-white p-8"
+        >
+          <div class="flex gap-2">
+            <star-icon v-for="i in 5" :key="i" />
+          </div>
 
-        <p class="my-3 mb-0 text-sm leading-[22px] font-normal tracking-wide text-black">
-          I've been using XYZ for over a year now and their customer service is excellent! Whenever
-          I have a question, the team is always available and willing to help. Highly recommend!
-        </p>
+          <p class="my-3 mb-0 text-sm leading-[22px] font-normal tracking-wide text-black">
+            {{ review.text }}
+          </p>
 
-        <div class="mt-6 flex items-center gap-6">
-          <div class="h-10 w-10 overflow-hidden rounded-full shadow-sm outline-neutral-800">
-            <div class="relative inline-block overflow-hidden rounded-lg border-neutral-800">
-              <img
-                alt=""
-                src="https://randomuser.me/api/portraits/women/2.jpg"
-                width="50"
-                height="50"
-                decoding="async"
-                data-nimg="1"
-                class="inline-block"
-                loading="lazy"
-                style="color: transparent"
-              />
+          <div class="mt-6 flex items-center gap-6">
+            <div class="h-10 w-10 overflow-hidden rounded-full shadow-sm outline-neutral-800">
+              <div class="relative inline-block overflow-hidden rounded-lg border-neutral-800">
+                <img
+                  :src="getImageUrl(review.img_url)"
+                  :alt="review.img_url"
+                  width="50"
+                  height="50"
+                  class="inline-block"
+                />
+              </div>
+            </div>
+            <div class="text-sm">
+              <p class="text-black font-semibold">{{ review.name }}</p>
+              <p class="text-[#787878]">{{ review.role }}</p>
             </div>
           </div>
-          <div class="text-sm">
-            <p class="text-black font-semibold">Melissa Smith</p>
-            <p class="text-[#787878]">Marketing Manager</p>
-          </div>
-        </div>
+        </li>
+      </ul>
+      <div class="flex justify-center">
+        <button class="text-primary font-semibold flex items-center">
+          <span class="mr-2.5">View all testimonials</span>
+          <img src="@/assets/img/circle-right.svg" alt="" />
+        </button>
       </div>
     </div>
   </section>
