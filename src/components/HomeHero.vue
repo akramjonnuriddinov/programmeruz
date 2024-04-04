@@ -42,7 +42,7 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
             </button>
           </div>
           <div class="flex justify-center mb-[28px]">
-            <img class="" src="../assets/img/dashboard/item1.png" alt="" />
+            <img src="../assets/img/dashboard/item1.png" alt="" />
           </div>
           <ul class="flex items-center justify-center">
             <li class="flex items-center mr-6">
@@ -72,13 +72,13 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
             </div>
           </div>
           <div class="flex justify-center">
-            <img class="" src="../assets/img/dashboard/item2.png" alt="" />
+            <img src="../assets/img/dashboard/item2.png" alt="" />
           </div>
         </div>
         <div class="third-area bg-white rounded-3xl p-6 pt-[22px]">
           <div class="mb-4">
             <div class="text-sm flex items-center justify-between mb-8">
-              <div class="">
+              <div>
                 <h3 class="text-[#30323F] font-semibold text-base leading-[19px]">
                   Convertion Rate
                 </h3>
@@ -94,19 +94,41 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
             </div>
           </div>
           <div class="flex justify-center">
-            <img class="" src="../assets/img/dashboard/item3.png" alt="" />
+            <img src="../assets/img/dashboard/item3.png" alt="" />
           </div>
         </div>
         <div class="fourth-area bg-white rounded-3xl p-6 pt-[22px]">
-          <div class="flex justify-center mb-[28px]">
-            <img class="" src="../assets/img/dashboard/item4.png" alt="" />
+          <div class="flex justify-between items-center pb-6 border-b border-[#EBECEF]">
+            <div>
+              <div class="flex items-center mb-2">
+                <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-2"
+                  >1,203</span
+                >
+                <div class="flex items-center mr-1 text-[#57C347]">
+                  <img src="../assets/img/up-icon.svg" alt="" />
+                  <span>2.5%</span>
+                </div>
+              </div>
+              <span class="text-[#8E8F98]">Visitor this year</span>
+            </div>
+            <img src="../assets/img/dashboard/item4.png" alt="" />
           </div>
-          <div class="flex justify-center mb-[28px]">
-            <img class="" src="../assets/img/dashboard/item5.png" alt="" />
+          <div class="flex justify-between items-center pt-6">
+            <div>
+              <div class="flex items-center mb-2">
+                <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-2">672</span>
+                <div class="flex items-center mr-1 text-[#FF4B4B]">
+                  <img src="../assets/img/down-icon.svg" alt="" />
+                  <span>2.5%</span>
+                </div>
+              </div>
+              <span class="text-[#8E8F98]">Visitor this month</span>
+            </div>
+            <img src="../assets/img/dashboard/item5.png" alt="" />
           </div>
         </div>
         <div class="fifth-area bg-white rounded-3xl p-6 pt-[22px]">
-          <img class="" src="../assets/img/dashboard/eye.png" alt="" />
+          <img src="../assets/img/dashboard/eye.png" alt="" />
         </div>
       </div>
       <!-- /DIAGRAM -->
