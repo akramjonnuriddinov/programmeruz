@@ -42,7 +42,7 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
             </button>
           </div>
           <div class="flex justify-center mb-[28px]">
-            <img src="@/assets/img/dashboard/item1.png" alt="" />
+            <img src="@/assets/img/dashboard/Item1.png" alt="" />
           </div>
           <ul class="flex items-center justify-center">
             <li class="flex items-center mr-6">
