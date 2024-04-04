@@ -34,15 +34,15 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
         <div class="first-area bg-white rounded-3xl p-6 pt-[22px]">
           <div class="flex items-center justify-between mb-[26px]">
             <button>
-              <img src="../assets/img/dashboard/left-icon.svg" alt="" />
+              <img src="@/assets/img/dashboard/left-icon.svg" alt="" />
             </button>
             <span>December 2023</span>
             <button>
-              <img src="../assets/img/dashboard/right-icon.svg" alt="" />
+              <img src="@/assets/img/dashboard/right-icon.svg" alt="" />
             </button>
           </div>
           <div class="flex justify-center mb-[28px]">
-            <img src="../assets/img/dashboard/item1.png" alt="" />
+            <img src="@/assets/img/dashboard/item1.png" alt="" />
           </div>
           <ul class="flex items-center justify-center">
             <li class="flex items-center mr-6">
@@ -65,14 +65,14 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
             <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-4">0.87%</span>
             <div class="flex items-center">
               <div class="flex items-center mr-1 text-[#57C347]">
-                <img src="../assets/img/up-icon.svg" alt="" />
+                <img src="@/assets/img/up-icon.svg" alt="" />
                 <span>2.5%</span>
               </div>
               <span class="text-[#8E8F98]">than last week</span>
             </div>
           </div>
           <div class="flex justify-center">
-            <img src="../assets/img/dashboard/item2.png" alt="" />
+            <img src="@/assets/img/dashboard/item2.png" alt="" />
           </div>
         </div>
         <div class="third-area bg-white rounded-3xl p-6 pt-[22px]">
@@ -84,7 +84,7 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
                 </h3>
                 <div class="flex">
                   <div class="flex items-center mr-1 text-[#57C347]">
-                    <img src="../assets/img/up-icon.svg" alt="" />
+                    <img src="@/assets/img/up-icon.svg" alt="" />
                     <span>2.5%</span>
                   </div>
                   <span class="text-[#8E8F98]">than last week</span>
@@ -94,7 +94,7 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
             </div>
           </div>
           <div class="flex justify-center">
-            <img src="../assets/img/dashboard/item3.png" alt="" />
+            <img src="@/assets/img/dashboard/item3.png" alt="" />
           </div>
         </div>
         <div class="fourth-area bg-white rounded-3xl p-6 pt-[22px]">
@@ -105,39 +105,39 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
                   >1,203</span
                 >
                 <div class="flex items-center mr-1 text-[#57C347]">
-                  <img src="../assets/img/up-icon.svg" alt="" />
+                  <img src="@/assets/img/up-icon.svg" alt="" />
                   <span>2.5%</span>
                 </div>
               </div>
               <span class="text-[#8E8F98]">Visitor this year</span>
             </div>
-            <img src="../assets/img/dashboard/item4.png" alt="" />
+            <img src="@/assets/img/dashboard/item4.png" alt="" />
           </div>
           <div class="flex justify-between items-center pt-6">
             <div>
               <div class="flex items-center mb-2">
                 <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-2">672</span>
                 <div class="flex items-center mr-1 text-[#FF4B4B]">
-                  <img src="../assets/img/down-icon.svg" alt="" />
+                  <img src="@/assets/img/down-icon.svg" alt="" />
                   <span>2.5%</span>
                 </div>
               </div>
               <span class="text-[#8E8F98]">Visitor this month</span>
             </div>
-            <img src="../assets/img/dashboard/item5.png" alt="" />
+            <img src="@/assets/img/dashboard/item5.png" alt="" />
           </div>
         </div>
         <div class="fifth-area bg-white rounded-3xl p-6 pt-[22px]">
-          <span class="text-[#8E8F98] mb-7">Pageviews</span>
+          <span class="text-[#8E8F98] flex mb-7">Pageviews</span>
           <div class="flex items-center justify-between">
             <div class="flex items-center mb-2">
               <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-2">1,203</span>
               <div class="flex items-center mr-1 text-[#57C347]">
-                <img src="../assets/img/up-icon.svg" alt="" />
+                <img src="@/assets/img/up-icon.svg" alt="" />
                 <span>2.5%</span>
               </div>
             </div>
-            <img src="../assets/img/dashboard/eye.png" alt="" />
+            <img src="@/assets/img/dashboard/eye.png" alt="" />
           </div>
         </div>
       </div>
