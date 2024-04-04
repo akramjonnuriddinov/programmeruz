@@ -61,6 +61,16 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
         </div>
         <div class="second-area bg-white rounded-3xl p-6 pt-[22px]">
           <h3>Convertion Rate</h3>
+          <div class="text-sm flex items-center mb-8">
+            <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-4">0.87%</span>
+            <div class="flex items-center">
+              <div class="flex items-center mr-1 text-[#57C347]">
+                <img src="../assets/img/up-icon.svg" alt="" />
+                <span>2.5%</span>
+              </div>
+              <span class="text-[#8E8F98]">than last week</span>
+            </div>
+          </div>
           <div class="flex justify-center mb-[28px]">
             <img class="" src="../assets/img/dashboard/item2.png" alt="" />
           </div>
