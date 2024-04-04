@@ -128,7 +128,17 @@ import ChevronIcon from '@/components/icons/ChevronIcon.vue'
           </div>
         </div>
         <div class="fifth-area bg-white rounded-3xl p-6 pt-[22px]">
-          <img src="../assets/img/dashboard/eye.png" alt="" />
+          <span class="text-[#8E8F98] mb-7">Pageviews</span>
+          <div class="flex items-center justify-between">
+            <div class="flex items-center mb-2">
+              <span class="font-bold text-[32px] leading-[38.73px] text-[#30323F] mr-2">1,203</span>
+              <div class="flex items-center mr-1 text-[#57C347]">
+                <img src="../assets/img/up-icon.svg" alt="" />
+                <span>2.5%</span>
+              </div>
+            </div>
+            <img src="../assets/img/dashboard/eye.png" alt="" />
+          </div>
         </div>
       </div>
       <!-- /DIAGRAM -->
